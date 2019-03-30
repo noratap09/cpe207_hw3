@@ -35,6 +35,13 @@ function onsubmit(e){
         var old_data = show_data.innerHTML+data;
         show_data.innerHTML = old_data;
         save_data();
+        subject.value = "";
+        massage.value = "";
+        Name.value = "";
+        gender.value = "male"
+        phone.value = "";
+        email.value = "";
+        
     }
     else
     {
