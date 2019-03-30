@@ -78,7 +78,7 @@ function onsubmit(e){
 
 function remove(key)
 {
-    alert(key);
+    //alert(key);
     document.getElementById(key).remove();
     save_data();
 }
